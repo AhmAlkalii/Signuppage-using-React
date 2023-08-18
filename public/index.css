@@ -1,0 +1,244 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family:"Poppings",sans-serif;
+}
+
+:root{
+  --bg-color:linear-gradient(to right, rgb(72, 125, 129), rgb(105, 154, 146));
+  --second-bg-color:linear-gradient(to left, rgb(20, 20, 24), rgb(8, 8, 119));
+  --text-color:white;
+  --main-color:lightgrey;
+  background: var(--bg-color);
+}
+html{
+  font-size:62.5%;
+  overflow-x: hidden;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100; 
+  border-radius:  0rem;
+  border-bottom: 2px solid black;
+}
+
+h1{
+  text-align: center;
+}
+
+.Logo a{ 
+  color: aliceblue;
+  font-size: 20px;
+}
+.Logo .ic{
+  font-size: 30px;
+  color: gold;
+}
+
+
+.navb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.nav-links {
+  display: flex; 
+  gap: 19px;
+  position: relative;
+  left: -350px;
+}
+
+
+.nav-links a {
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: black;
+}
+
+.icons {
+  display: flex;
+  gap: 19px;
+}
+
+.icons a{
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.icons .selected {
+  border-bottom: 2px solid black; 
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+}
+
+.image{
+  max-width: 84%;
+  float: left;
+}
+img {
+  width: 120%;
+  height: 100vh;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: -490px;
+  margin-right: 50px;  
+  float: right;
+}
+
+.sign-in-inline {
+  display: inline-block;
+  margin-right: 10px; 
+}
+
+.sign-in {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.text .tx {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px 20px;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.text .tx:hover{
+  color: lightgreen;
+}
+
+.text a i {
+  margin-right: 5px;
+}
+
+.content h1 {
+  margin-bottom: 20px; 
+}
+
+.content p{
+  margin-bottom: 12px;
+} 
+.line-with-or {
+  display: flex;
+  align-items: center;
+  margin: 10px 0; 
+  
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color:azure;
+}
+
+.line-with-or span {
+  margin: 0 10px; 
+}
+
+
+.form input[type="text"],
+.form input[type="password"] {
+  font-size: 20px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #000; 
+  padding-bottom: 5px; 
+  display: block; 
+  width: 90%;
+}
+
+.form input[type="text"]::placeholder,
+.form input[type="password"]::placeholder {
+  color: #000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.form button {
+  border-radius: 1rem;
+  height: 40px;
+  width: 70%;
+  background-color: burlywood;
+ 
+}
+
+.form button:hover{
+  background-color: darksalmon;
+}
+
+
+.checkbox-container {
+  display: flex;
+  align-items: center; 
+  margin-right: 320px;
+  margin-bottom: 14px;
+}
+
+.checkbox-container:hover{
+  color:lightgreen;
+}
+.checkbox-container label {
+  font-size: 16px;
+  margin-left: 10px; 
+} 
+
+
+.fpc .fp{
+  display: flex;
+  align-items: center; 
+  margin-left: 420px;
+  margin-top: -32px;
+  font-size: 16px;
+  text-decoration: underline;
+  color: black;
+}
+
+.fpc .fp:hover{
+  color: lightgreen;
+}
+
+.checked {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.checked .checked1{
+  text-decoration: underline;
+  color:darkkhaki;
+}
+
+.checked .checked1:hover{
+  color: lightgreen;
+}
