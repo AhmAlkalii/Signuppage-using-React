@@ -84,6 +84,9 @@ h1{
   font-size: 20px;
 }
 
+.icons a:hover{
+  color: lightgreen;
+}
 .icons .selected {
   border-bottom: 2px solid black; 
 }
